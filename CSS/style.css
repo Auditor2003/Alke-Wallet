@@ -1,0 +1,45 @@
+/* ---------------- ESTILOS GENERALES ---------------- */
+
+/* Estilos para el cuerpo de la página */
+body {
+  background-color: #f4f6f9; /* Color gris claro de fondo */
+  font-family: Arial, sans-serif; /* Fuente simple y legible */
+}
+
+/* ---------------- LOGIN ---------------- */
+
+/* Fondo especial solo para la pantalla de login */
+.bg-wallet {
+  /* Degradado azul/verde estilo fintech */
+  background: linear-gradient(135deg, #0d6efd, #20c997);
+
+  /* Ocupa toda la altura de la pantalla */
+  min-height: 100vh;
+
+  /* Centramos mejor el contenido */
+  display: flex;
+  align-items: center;
+}
+
+/* ---------------- TARJETAS ---------------- */
+
+/* Estilo general para todas las cards */
+.card {
+  border-radius: 15px; /* Bordes redondeados */
+  border: none;        /* Quitamos borde feo */
+}
+
+/* ---------------- SALDO ---------------- */
+
+/* Estilo del número del saldo */
+#saldo {
+  color: #198754;      /* Verde */
+  font-weight: bold;  /* Texto en negrita */
+}
+
+/* ---------------- BOTONES ---------------- */
+
+/* Espacio extra entre botones si se necesita */
+.btn {
+  margin-top: 5px;
+}
