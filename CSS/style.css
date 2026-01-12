@@ -43,13 +43,13 @@ body {
 .btn {
   margin-top: 5px;
 }
-/* ---------------- BOTÓN VOLVER (Estaba solo como link azul) ---------------- */
-
+/* Botón Volver centrado y con formato azul y letras blancas btn-primary */
 .btn-volver {
-  display: block;
-  width: fit-content;
-  margin: 0 auto;
+  display: block;          /* Permite centrar */
+  width: fit-content;      /* Tamaño justo al texto */
+  margin: 20px auto 0;     /* Centrado + espacio arriba */
 }
+
 
 .btn-volver:hover {
   background-color: #0b5ed7;
