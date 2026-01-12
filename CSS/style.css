@@ -43,3 +43,15 @@ body {
 .btn {
   margin-top: 5px;
 }
+/* ---------------- BOTÓN VOLVER (Estaba solo como link azul) ---------------- */
+
+.btn-volver {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.btn-volver:hover {
+  background-color: #0b5ed7;
+}
+

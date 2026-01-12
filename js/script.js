@@ -45,7 +45,7 @@ $("#btnLogin").click(function () {
   } else {
 
     // Mensaje de error
-    alert("!! wUAJAJAJA ¡¡ Usuario o contraseña incorrectos 😅 Next !!");
+    alert("Revisa !! Tu Usuario o contraseña son incorrectos 😅 !!");
   }
 });
 
