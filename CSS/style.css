@@ -43,3 +43,10 @@ body {
 .btn {
   margin-top: 5px;
 }
+/* ---------------- BOTÓN VOLVER (Estaba solo como link azul) ---------------- */
+
+.btn-volver {
+  display: block;          /* Permite centrar */
+  width: fit-content;      /* Tamaño justo al texto */
+  margin: 20px auto 0;     /* Centrado + espacio arriba */
+}
